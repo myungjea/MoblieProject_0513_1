@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff0000"
+            android:layout_marginRight="15dp"
+            android:text="Red"/>
+
+        <Button
+            android:id="@+id/btn_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0000ff"
+            android:layout_marginRight="15dp"
+            android:text="Blue"/>
+
+        <Button
+            android:id="@+id/btn_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff00"
+
+            android:text="Yellow"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0000"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000ff"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffff00"/>
+
+    </FrameLayout>
+
+</LinearLayout>
